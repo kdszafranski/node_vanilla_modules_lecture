@@ -1,8 +1,8 @@
-var iota = require('./iota');
+var theta = require('./theta');
 var message = require('./message');
 
 var helloMessage = function(){
-    return message() + iota();
+    return message() + theta();
 };
 
 module.exports = helloMessage;

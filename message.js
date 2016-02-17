@@ -1,5 +1,5 @@
 var message = function(){
-    return "Hello ";
+    return 'Goodbye...?';
 };
 
 module.exports = message;
