@@ -1,5 +1,5 @@
-var iota = function(){
-    return "iota";
+var theta = function(){
+    return 'Theta';
 };
 
-module.exports = iota;
+module.exports = theta;
