@@ -1,5 +1,5 @@
 var mu = function(){
-    return 'Mu';
+    return 'Mu Rocks!';
 };
 
 module.exports = mu;
