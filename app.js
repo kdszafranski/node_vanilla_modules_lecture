@@ -2,9 +2,9 @@ var http = require('http');
 var hello = require('./hello');
 var math = require('./math');
 
-http.createServer(function(req,res){
+http.createServer(function(req,res) {
     res.writeHead(200);
-    res.write(math.(6,5));                                                                                                                          :)
+    res.write(math.sum(6,5));
     res.end();
 }).listen(3000);
 

@@ -1,4 +1,4 @@
-var message = function(){
+var message = function() {
     return 'Goodbye...?';
 };
 
